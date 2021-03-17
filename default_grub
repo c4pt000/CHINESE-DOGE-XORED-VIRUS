@@ -1,1 +1,5 @@
-"..................----------> rhgb vga=792 iommu=pt intel_iommu=on cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0 vfio-pci.ids=8086:10c9 pcie_acs_override=multifunction "
+"......----------> rhgb vga=792 iommu=pt intel_iommu=on cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0 vfio-pci.ids=8086:10c9 pcie_acs_override=multifunction "
+
+
+02:00.0 Ethernet controller [0200]: Intel Corporation 82576 Gigabit Network Connection [8086:10c9] (rev 01)
+02:00.1 Ethernet controller [0200]: Intel Corporation 82576 Gigabit Network Connection [8086:10c9] (rev 01)
