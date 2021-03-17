@@ -45,6 +45,7 @@ Maybe a possible to solution to problems like this could consist of clamAV antiv
 # <p> threw google lens as a snort plugin at the ISP node level and filtering packets to discovery TOR activity then revealing illegal tor nodes is possible since any customer receiving broadband is within a 2-3 mile range of an ISP node (or even cell node tower) threw smart detection to discovery bizarrities of malicious behavoir this is problably a better approach than my other idea of designing a non destructive worm to "ip reveal" at the pack level per tor node entry and exit hop <p>
 	<p> even a snort based google lens plugin could detect sources of credit cards marked for fraud and other money based movement and financial fraud activity at the ISP node and cell node level as linked by financial instiution <p>
 		
+			emerging-tor.rules
 
 https://raw.githubusercontent.com/c4pt000/CHINESE-DOGE-XORED-VIRUS/main/TOR-Snort-lens-scan.png<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/CHINESE-DOGE-XORED-VIRUS/main/TOR-Snort-lens-scan.png" width="500"></p>
 
