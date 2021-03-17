@@ -22,3 +22,19 @@ Date-Time	Message	Virus	URL	Host	User
 17.03.2021 14:54:05	VIRUS FOUND	PUA.Win.Trojan.Xored-1	?url=https://aka-cdn.adtechus.com/media/moat/adtechbrands092348fjlsmdhlwsl239fh3df/moatad.js	10.0.2.2	-
 
 ```
+
+
+```
+ClamAV - clamd Logs
+Message
+SelfCheck: Database status OK.
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+instream(local): PUA.Win.Trojan.Xored-1 FOUND
+```
