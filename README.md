@@ -1,3 +1,8 @@
+
+(CVE XORED-rootkit)
+# CHINESE-DOGE-XORED-VIRUS
+# * https://www.intezer.com/blog/malware-analysis/new-linux-backdoor-redxor-likely-operated-by-chinese-nation-state-actor/
+
 * suggested
 * Compiled against library: libvirt 7.1.0
 * Using library: libvirt 7.1.0
@@ -27,8 +32,7 @@ source should be in KVM disk image store located in this XML
    ```   <source file='/home/KVM-IMAGES/pfsense-2.5.0-template_flat.qcow2'/> ```
 
 
-# CHINESE-DOGE-XORED-VIRUS
-# * https://www.intezer.com/blog/malware-analysis/new-linux-backdoor-redxor-likely-operated-by-chinese-nation-state-actor/
+
 
 
 
