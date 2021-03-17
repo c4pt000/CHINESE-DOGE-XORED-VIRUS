@@ -6,14 +6,16 @@
 
 requires two physicals NICs ports that can be seperated or used individually as a passed through adapter one for WAN passed through and one for LAN to host running KVM image
 
+# pfsense+snort+clamav+firewall below template flat image qcow2
+# https://drive.google.com/file/d/1eMU4b1Lqblhvse64sO1ACN1QQgdp6Yhv/view?usp=sharing
+
 source should be in KVM disk image store located in this XML
    ```   <source file='/home/KVM-IMAGES/pfsense-2.5.0-template_flat.qcow2'/> ```
 
 
 # CHINESE-DOGE-XORED-VIRUS
 # * https://www.intezer.com/blog/malware-analysis/new-linux-backdoor-redxor-likely-operated-by-chinese-nation-state-actor/
-pfsense+snort+clamav+firewall below template flat image qcow2
-https://drive.google.com/file/d/1eMU4b1Lqblhvse64sO1ACN1QQgdp6Yhv/view?usp=sharing
+
 
 
 
