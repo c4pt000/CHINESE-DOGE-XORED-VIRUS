@@ -1,3 +1,12 @@
+ 
+* snort detection of compromised mouse "clipboard" copy paste https://medium.com/@desertedness/how-websites-can-hijack-your-clipboard-beea4f4cbb94
+
+* snort plugin for detecting crypto currency hijacking as signature to protect cryptocurrencies wallet.dat from a suspicious overseas ip or TOR node ip transmission
+
+
+
+
+
 
 (CVE XORED-rootkit)
 # CHINESE-DOGE-XORED-VIRUS
