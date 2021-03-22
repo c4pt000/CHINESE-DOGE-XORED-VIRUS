@@ -28,6 +28,10 @@ requires two physicals NICs ports that can be seperated or used individually as 
 <br>
 * create ECDSA based self signed CA cert in "cert manager" also requires "exporting the CA self signed cert to import into the browser accessing squidguard clamav * scanning and enabling the self signed cert in the squidguard proxy
 * PackageProxy Server: General SettingsGeneral -> https://github.com/c4pt000/CHINESE-DOGE-XORED-VIRUS/blob/main/CA-self-signed.png Services->Squid Proxy Server
+
+* SSL errors from self signed certificate can be debugged by disabling "Check to enable squid proxy"
+* the self signed cert also needs to be imported into bash or /etc/pki/ssl for using command line functions like wget, curl, yum or other command line processes that require verification of ssl with the CA -> https://raw.githubusercontent.com/c4pt000/PROTECT_INTERNET_USERS_AT_THE_LOCAL_NODE_LEVEL_BEFORE_ROUTER_CHINESE-DOGE-XORED-VIRUS/main/SQUID-CA-SSL.png 
+
 <br>
 default user pass for this image
 <br>
@@ -35,12 +39,7 @@ admin
 <br>
 pfsense
 <br>
-* SSL errors from self signed certificate can be debugged by disabling "Check to enable squid proxy"
 
-* the self signed cert also needs to be imported into bash or /etc/pki/ssl for using command line functions like wget, curl, yum or other command line processes that require verification of ssl with the CA
-
-
-<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/PROTECT_INTERNET_USERS_AT_THE_LOCAL_NODE_LEVEL_BEFORE_ROUTER_CHINESE-DOGE-XORED-VIRUS/main/SQUID-CA-SSL.png width="500"></p>
 
 # pfsense+snort+clamav+firewall below template flat image qcow2
 
