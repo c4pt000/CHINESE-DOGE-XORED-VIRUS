@@ -30,6 +30,9 @@ adding ECDSA system-wide self-signed .cert fedora 33 the self signed cert needs 
  sudo cp ECDSA.pem /usr/share/pki/ca-trust-source/anchors/
  sudo update-ca-trust
 ```
+also import the .crt or .pem into chrome and firefox
+https://raw.githubusercontent.com/c4pt000/PROTECT_INTERNET_USERS_AT_THE_LOCAL_NODE_LEVEL_BEFORE_ROUTER_CHINESE-DOGE-XORED-VIRUS/main/import-CAcert-chromium.png
+
 <br>
 
 * SSL errors from self signed certificate can be debugged by disabling "Check to enable squid proxy"
