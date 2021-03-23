@@ -22,7 +22,8 @@
 
 requires two physicals NICs ports that can be seperated or used individually as a passed through adapter one for WAN passed through and one for LAN to host running KVM image
 
-
+EICAR malware test files
+https://www.eicar.org/?page_id=3950
 
 adding ECDSA system-wide self-signed .cert fedora 33 the self signed cert needs to be imported into bash or /etc/pki/ssl for using command line functions like wget, curl, yum or other command line processes 
 ```
