@@ -3,6 +3,8 @@
 # could be at the node level for customer distribution and cellular distribution and also as an operating system ROM area (similar to SIP on macOS) for mac, linux, windows, android, ios
 # as a ROM protected area running the functions to communicate with the local node whether cellular or landline, similar to macOS SIP with a protected system area but for the IDS and antivirus functions + google lens detection of unwanted photos 
 
+# where the data in question could be locked in the system from user deletion, and user access with operating system programs,
+
 ## GENERALIZED PROPOSAL , experimental WIP** template use at your own discretion needs to be rule provisioned by squidguard + snort
 
 * snort detection of compromised mouse "clipboard" copy paste https://medium.com/@desertedness/how-websites-can-hijack-your-clipboard-beea4f4cbb94
