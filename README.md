@@ -4,6 +4,7 @@
 # as a ROM protected area running the functions to communicate with the local node whether cellular or landline, similar to macOS SIP with a protected system area but for the IDS and antivirus functions + google lens detection of unwanted photos 
 
 # where the data in question could be locked in the system from user deletion, and user access with operating system programs,
+# viruses neutralized, unwanted photos flagged, and malicious packet data stopped
 
 ## GENERALIZED PROPOSAL , experimental WIP** template use at your own discretion needs to be rule provisioned by squidguard + snort
 
