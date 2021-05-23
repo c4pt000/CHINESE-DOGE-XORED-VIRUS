@@ -7,6 +7,7 @@
 
 ![s1](https://raw.githubusercontent.com/c4pt000/caja/master/image-details-screenshot-machine-info-Tcamera-type-Tmodel.png)
 
+as href right click copy link <- note to myself on my personal blog
 
 # google needs to disable calendar automatic invite events on google signup accounts by default, and current accounts google is victimizing too many people allowing them to be fooled into crimes such as sextortion and other vile crimes
 
