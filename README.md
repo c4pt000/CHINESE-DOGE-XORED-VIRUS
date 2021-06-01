@@ -1,5 +1,6 @@
 ![s1](https://raw.githubusercontent.com/c4pt000/XORED-defense-photochain-project/main/block-remote-lan-local-lan-only-allow-one-lan-ip-access-to-admin.png)
 
+small business config or home use with many (or a single) LAN ip node(s) wireless or wired,
 ```
 where 10.0.2.2 is my LAN ip that I want to access pfsense 10.0.2.1 from and only allow 10.0.2.2 to access 10.0.2.1
 all other IPs on the LAN cannot connect to 10.0.2.1 or the remote side of the admin
