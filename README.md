@@ -1,3 +1,15 @@
+![s1](https://raw.githubusercontent.com/c4pt000/XORED-defense-photochain-project/main/block-remote-lan-local-lan-only-allow-one-lan-ip-access-to-admin.png)
+
+```
+where 10.0.2.2 is my LAN ip that I want to access pfsense 10.0.2.1 from and only allow 10.0.2.2 to access 10.0.2.1
+all other IPs on the LAN cannot connect to 10.0.2.1 or the remote side of the admin panel to 10.0.2.1 in this case 98.250.xxx.xx where 98.250.xxx.xx is my WAN ip where access to the pfsense panel is still exposed, even on the LAN side other LAN ips 10.0.2.4 , 10.0.2.5 , 10.0.2.6 , etc would be able to access 10.0.2.1 this rule set *ONLY* allows 10.0.2.2 to access 10.0.2.1 where every other IP is blocked from accessing the admin panel local or remote, (regular LAN internet access continues to work to port 53, 80 ,443)
+
+in this case the LAN ip is static 10.0.2.2 instead of DHCP to never change to not get locked out from the admin panel from the network manager side (not pfsense)
+
+```
+then, disable the anti-lockout rule for LAN access since only one IP will access the admin panel
+![s1](https://raw.githubusercontent.com/c4pt000/XORED-defense-photochain-project/main/disable-config-lockout.png)
+
 ## see https://github.com/c4pt000/QUANTUM_PROTECTION_FOR_CLASSIC-ENCRYPTION-PROTECTION-AT_THE_HARDWARE_LEVEL_IN_THE_PROCESSOR for quantum computing protection at the node level
 
 
