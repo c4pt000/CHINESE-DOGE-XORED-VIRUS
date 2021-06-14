@@ -1,3 +1,7 @@
+https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/
+
+![s1](https://raw.githubusercontent.com/c4pt000/XORED-defense-photochain-project/main/polkit-exploit.png)
+
 ![s1](https://raw.githubusercontent.com/c4pt000/XORED-defense-photochain-project/main/block-remote-lan-local-lan-only-allow-one-lan-ip-access-to-admin.png)
 
 small business config or home use with many (or a single) LAN ip node(s) wireless or wired,
