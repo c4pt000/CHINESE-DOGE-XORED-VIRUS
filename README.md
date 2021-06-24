@@ -1,4 +1,45 @@
+discovered PUA.Win.Exploit.CVE_2012_1461-1 in "groovy-backports" -> http://archive.ubuntu.com/ubuntu/dists/groovy-backports/main/binary-amd64/by-hash/SHA256/a58aab71a6f9e353f746c25637da310098285fb006ae6389fec1c8ecc3075aa8
+```
+Err:5 http://archive.ubuntu.com/ubuntu groovy-backports/main amd64 Packages
+  Hash Sum mismatch
+  Hashes of expected file:
+   - Filesize:2681 [weak]
+   - SHA256:a58aab71a6f9e353f746c25637da310098285fb006ae6389fec1c8ecc3075aa8
+   - SHA1:5331773d64e05b5d84898bbe00aacfcbefbaaa75 [weak]
+   - MD5Sum:c8540d88cb76f9a64eb1b71c8e5ef836 [weak]
+  Hashes of received file:
+   - SHA256:27eba4a1c27decd8178b8d29713782a4d16d6d0b25f7c30672c8522409d05a6e
+   - SHA1:91e959638b590b955c1161708b30a5e378419c8c [weak]
+   - MD5Sum:108d6b15a7bf6dcf5402366f17197e09 [weak]
+   - Filesize:1123 [weak]
+  Last modification reported: Thu, 24 Jun 2021 01:56:55 +0000
+  Release file created at: Thu, 24 Jun 2021 00:16:31 +0000
+Get:6 http://archive.ubuntu.com/ubuntu groovy-backports amd64 Contents (deb) [5868 B]
+Err:6 http://archive.ubuntu.com/ubuntu groovy-backports amd64 Contents (deb)
+  
+Fetched 103 kB in 2s (55.9 kB/s)
+Reading package lists... Done
+E: Failed to fetch https://10.0.2.1/squid_clwarn.php?url=?url=http://archive.ubuntu.com/ubuntu/dists/groovy-backports/main/binary-amd64/by-hash/SHA256/a58aab71a6f9e353f746c25637da310098285fb006ae6389fec1c8ecc3075aa8&source=10.0.2.2&user=-&virus=stream: PUA.Win.Exploit.CVE_2012_1461-1 FOUND&recover=(null)  Hash Sum mismatch
+   Hashes of expected file:
+    - Filesize:2681 [weak]
+    - SHA256:a58aab71a6f9e353f746c25637da310098285fb006ae6389fec1c8ecc3075aa8
+    - SHA1:5331773d64e05b5d84898bbe00aacfcbefbaaa75 [weak]
+    - MD5Sum:c8540d88cb76f9a64eb1b71c8e5ef836 [weak]
+   Hashes of received file:
+    - SHA256:27eba4a1c27decd8178b8d29713782a4d16d6d0b25f7c30672c8522409d05a6e
+    - SHA1:91e959638b590b955c1161708b30a5e378419c8c [weak]
+    - MD5Sum:108d6b15a7bf6dcf5402366f17197e09 [weak]
+    - Filesize:1123 [weak]
+   Last modification reported: Thu, 24 Jun 2021 01:56:55 +0000
+   Release file created at: Thu, 24 Jun 2021 00:16:31 +0000
+E: Failed to fetch https://10.0.2.1/squid_clwarn.php?url=?url=http://archive.ubuntu.com/ubuntu/dists/groovy-backports/by-hash/SHA256/58b699fe6c9c15435b3c80e26425d06045020a22ee1f42335ae066df107fdce5&source=10.0.2.2&user=-&virus=stream: PUA.Win.Exploit.CVE_2012_1461-1 FOUND&recover=(null)  
+E: Failed to fetch https://10.0.2.1/squid_clwarn.php?url=?url=http://archive.ubuntu.com/ubuntu/dists/groovy-backports/universe/binary-amd64/by-hash/SHA256/3c42a81d0a3c8c7fc92e6380b6f7e8d7f56e226c4a5d207c4baaf08c70004a51&source=10.0.2.2&user=-&virus=stream: PUA.Win.Exploit.CVE_2012_1461-1 FOUND&recover=(null)  
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+```
+
 https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/
+
+
 
 ![s1](https://raw.githubusercontent.com/c4pt000/XORED-defense-photochain-project/main/polkit-exploit.png)
 
