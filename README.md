@@ -1,3 +1,9 @@
+```
+https://github.com/c4pt000/openvisualtraceroute-installer
+
+https://raw.githubusercontent.com/c4pt000/openvisualtraceroute-installer/master/release-install-1.7.1.fedora.sh
+```
+
 ![s1](https://raw.githubusercontent.com/c4pt000/XORED-defense-photochain-project/main/allowing%20traceroute.png)
 ```
 sudo ufw allow out 33434:33523/udp
